@@ -150,12 +150,12 @@
         },
         "PLUS_DI": {
             "name": "Plus Directional Indicator",
-            "input_params": ["high", "high", "close", "timeperiod"],
+            "input_params": ["high", "low", "close", "timeperiod"],
             "return_values": ["plus_di"]
         },  
         "PLUS_DM": {
             "name": "Plus Directional Movement",
-            "input_params": ["high", "high", "timeperiod"],
+            "input_params": ["high", "low", "timeperiod"],
             "return_values": ["plus_dm"]
         },
         "PPO": {
